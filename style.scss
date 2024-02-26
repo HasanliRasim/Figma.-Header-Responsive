@@ -64,6 +64,11 @@
         }
       }
     }
+    .header_nav_log_images{
+      .header_nav_log_img{
+        margin-left: 10px;
+      }
+    }
   }
 }
 @media only screen and (max-width: 768px) {
@@ -73,6 +78,16 @@
 }
 @media only screen and (min-width: 769px) {
   .burger {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .header_nav_log_img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .btn {
     display: none;
   }
 }

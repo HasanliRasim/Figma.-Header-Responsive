@@ -65,6 +65,9 @@
 #header .header_nav_log .btn_container .btn .btn_icon {
   margin: 0 15px;
 }
+#header .header_nav_log .header_nav_log_images .header_nav_log_img {
+  margin-left: 10px;
+}
 
 @media only screen and (max-width: 768px) {
   .header_nav_li_text {
@@ -73,6 +76,16 @@
 }
 @media only screen and (min-width: 769px) {
   .burger {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .header_nav_log_img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .btn {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
